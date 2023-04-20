@@ -21,7 +21,7 @@ Input File Format:
 - Second line contains three constants **C1 C2 C3** used to calculate the priority of shielded fighters as each tower shoots **N** enemies at each time step so the enemies with higher priority are shot first.  
 - Third line contains the number of enemies in the input file.  
 - Then the input file contains many lines (one line for each enemy) of the format:  
-**ID<br />Type  ArrivalTime  Health  FirePower  ReloadPeriod  Region**  
+**ID&nbsp;Type  ArrivalTime  Health  FirePower  ReloadPeriod  Region**  
 where **ID** is a sequence number that identifies the enemy (must be unique), **Type** is the enemy type (0:paver, 1:fighter and 2:shielded), **ArrivalTime** is the enemy arrival time step, **Health** is the enemy health, **FirePower** is the enemy fire power, **ReloadPeriod** is the enemy reload period need between each successive attack time steps and **Region** is the enemy region. The input lines are sorted by **arrival time in ascending order**.  
 
   
