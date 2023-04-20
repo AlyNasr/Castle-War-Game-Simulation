@@ -7,8 +7,8 @@ Each region has a paved distance, colored "Khaki" in the above GUI, where enemie
 
 There are 3 types of enemies:  
 1. **Pavers:** Blue color, they are responsible for paving more distance towards the towers.  
-2. **Fighters:** Green color, they attack the tower of their region causing damage that affects the tower health.  
-3. **Shielded Fighters:** Orange color, they also attack the tower of their region but cause double the damage caused by the normal fighters. 
+2. **Fighters:** Green color, they attack the tower of their region causing damage that affects the tower's health.  
+3. **Shielded Fighters:** Orange color, they also attack the tower of their region but cause double the damage made by the normal fighters. 
  
 A tower also attacks the enemies of its region causing damage that affects their health. The shielded fighters are affected less than pavers and normal fighters.  
 The castle wins if all enemies are killed and loses if all of its towers are damaged.  
