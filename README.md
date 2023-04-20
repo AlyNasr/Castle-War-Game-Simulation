@@ -1,5 +1,5 @@
 # Castle-War-Game-Simulation
-## GUI
+# GUI
 ![](https://github.com/AlyNasr/Castle-War-Game-Simulation/blob/main/simulation.gif)  
 
 Four towers are defending the castle against enemies. Each tower guards one region (A, B, C or D) and can shoot only enemies in its region.  
@@ -13,7 +13,7 @@ There are 3 types of enemies:
 A tower also attacks the enemies of its region causing damage that affects their health. The shielded fighters are affected less than pavers and normal fighters.  
 The castle wins if all enemies are killed and loses if all of its towers are damaged.  
 
-## Input File  
+# Input File  
 The application receives all the needed information about towers and enemies from an input file called **"input.txt"**.  
 
 Input File Format:  
@@ -25,7 +25,7 @@ Input File Format:
 **ID ‏‏‎ ‎Type  ‏‏‎ ‎ArrivalTime  ‏‏‎ ‎Health  ‏‏‎ ‎FirePower  ‏‏‎ ‎ReloadPeriod  ‏‏‎ ‎Region**  
 where **ID** is a sequence number that identifies the enemy (must be unique), **Type** is the enemy type (0:paver, 1:fighter and 2:shielded), **ArrivalTime** is the enemy arrival time step, **Health** is the enemy health, **FirePower** is the enemy fire power, **ReloadPeriod** is the enemy reload period need between each successive attack time steps and **Region** is the enemy region. The input lines are sorted by **arrival time in ascending order**.  
 
-## Main Classes  
+# Main Classes  
 - All used ADT classes **(Node, Queue, etc.. )** are implemented from scratch. They deal with the different types of enemies and the different enemy states (**inactive, active or killed**).   
 - **Enemy Class:** Abstract class containing data members and functions of an enemy. All enemy types classes **Paver**, **Fighter** and **ShieldedFighter** are derived from this class.  
 - **Tower Class:** Contains the tower needed data members and member functions.  
