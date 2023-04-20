@@ -26,7 +26,7 @@ Input File Format:
 where **ID** is a sequence number that identifies the enemy (must be unique), **Type** is the enemy type (0:paver, 1:fighter and 2:shielded), **ArrivalTime** is the enemy arrival time step, **Health** is the enemy health, **FirePower** is the enemy fire power, **ReloadPeriod** is the enemy reload period need between each successive attack time steps and **Region** is the enemy region. The input lines are sorted by **arrival time in ascending order**.  
 
 ## Main Classes  
-- All used ADT classes **(Node, Queue, etc.. )** are implemented from scratch. They deal with the different types of enemies and the different enemy states (inactive, active or killed).     
+- All used ADT classes **(Node, Queue, etc.. )** are implemented from scratch. They deal with the different types of enemies and the different enemy states (inactive, active or killed).   
 - **Enemy Class:** Abstract class containing data members and functions of an enemy. All enemy types classes **Paver**, **Fighter** and **ShieldedFighter** are derived from this class.  
 - **Tower Class:** Contains the tower needed data members and member functions.  
 - **Castle Class:** Responsible for the allocating the 4 towers and controling them.  
