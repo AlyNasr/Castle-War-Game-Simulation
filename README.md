@@ -26,12 +26,12 @@ Input File Format:
 where **ID** is a sequence number that identifies the enemy (must be unique), **Type** is the enemy type (0:paver, 1:fighter and 2:shielded), **ArrivalTime** is the enemy arrival time step, **Health** is the enemy health, **FirePower** is the enemy fire power, **ReloadPeriod** is the enemy reload period need between each successive attack time steps and **Region** is the enemy region. The input lines are sorted by **arrival time in ascending order**.  
 
 ## Main Classes  
+#### All used ADT classes **(Node, Queue, etc.. )** are implemented.   
 - **Enemy Class:** Abstract class containing data members and functions of an enemy. All enemy types classes **Paver**, **Fighter** and **ShieldedFighter** are derived from this class.  
 - **Tower Class:** Contains the tower needed data members and member functions.  
 - **Castle Class:** Responsible for the allocating the 4 towers and controling them.  
 - **Battle Class:** The maestro of the program. It is responsible for calling all the needed functions from all of the above classes to simualate and control the battle.  
 - **GUI Class:** Responsible for all input and output functions for the program GUI.  
-All used ADTs classes **(Node, Queue, etc.. )** are also implemented.   
 
    
   
